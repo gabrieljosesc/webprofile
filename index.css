@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	font-family: 'Open Sans', sans-serif;
+	background: #eff4fd;
+}
+
+span {
+	color: red;
+}
+
+#profile{
+	background-image: url("./images/bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.carousel {
+  width:640px;
+  height:425px;
+}
+
+#project{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-around;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 450px;
+	border: 1px solid black;
+	margin: 25px;
+	align-items: center;
+	text-align: justify;
+	padding: 10px;
+}
+
+#box img{
+	width: 200px;
+	height: 200px;
+}
